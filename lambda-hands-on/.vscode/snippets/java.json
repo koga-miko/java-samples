@@ -1,0 +1,25 @@
+{
+  "Java Class": {
+    "prefix": "jclass",
+    "body": [
+      "package ${1:com.example};",
+      "",
+      "/**",
+      " * ${2:Description}",
+      " *",
+      " * @author ${USER}",
+      " * @since ${CURRENT_YEAR}",
+      " */",
+      "public class ${TM_FILENAME_BASE} {",
+      "",
+      "    public ${TM_FILENAME_BASE}() {",
+      "    }",
+      "",
+      "    public static void main(String[] args) {",
+      "        System.out.println(\"Hello from ${TM_FILENAME_BASE}\");",
+      "    }",
+      "}"
+    ],
+    "description": "Template for a Java class (uses filename as class name)"
+  }
+}
